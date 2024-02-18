@@ -1,0 +1,119 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+.content{
+    width: 100%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+}
+.logo{
+    position: fixed;
+    float: left;
+    margin: 10px 36px;
+    Color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.favicon{
+    width: 35px;
+    height: 35px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color:white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;   
+}
+
+nav.black ul{
+    background: #000;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.center{
+    text-align: center;
+    padding-top: 130px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.START{
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+    background:url("https://cdn.pixabay.com/photo/2022/06/12/11/01/rounded-7257777_1280.png") no-repeat 50% 50%;
+    background-size:400px;
+}
+
+button{
+    border:none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    background-color: #FF8C00;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration:wavy;
+
+}
+
+.web{
+    font-size: 50px;
+    color: white;
+    line-height: 3px;
+}
+
+#content, #top, #alt1, #alt2, #alt3, #map, #sources{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
